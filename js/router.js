@@ -188,3 +188,6 @@ window.onpopstate = popStateHandler;
 document.getElementById('theme-toggle').addEventListener('click', () => { 
     document.body.classList.toggle('dark-mode'); 
 });
+
+modalImage.style.transform = 'scale(3.0)'; // Powiększ obraz
+modalImage.style.transition = 'transform 0.3s ease-in-out'; // Dodaj płynne przejście
